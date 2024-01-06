@@ -1,5 +1,6 @@
 import { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
+
 function WeatherApp() {
   const[cityName, setCityName] = useState("");
   const [weatherData, setWeatherData] = useState({})
