@@ -17,7 +17,7 @@ function WeatherApp() {
        
     }
 let handleMouseOut =(e) =>{
-  
+   
     fetchWeatherAPI();
 }
   return (
